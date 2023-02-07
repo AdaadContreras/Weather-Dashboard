@@ -1,13 +1,29 @@
 *{
-    color: rgb(7, 1, 1);
-    background: rgb(7, 200, 243);
+    color: black;
+    background:white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#cityInput, #cityName, #inputContainer,button{
-    margin: 3px;
+header {
+    width: 100%;
+    background-color: #1C9CF6;
+    margin-top: -34px;
+    margin-left: -8px;
+}
+
+.title {
+    width: 100%;
+    text-align:left ;
+    margin-left: 15px;
+    font-size: 50px;
+    background-color: #1C9CF6;
+}
+
+#cityInput, #cityName, #inputContainer, button{
+text-transform: capitalize;
+margin: 3px;
 padding:5px;
-text-align:center;
+text-align:left;
 font-size:20px;
 font-weight:bold;
 }
@@ -20,7 +36,7 @@ font-weight:bold;
     transform: translate(-50%, -50%);
     height: 300px;
     width: 1300px;
-    border: 5px solid rgba(97, 95, 95, 0.829);    
+    border: 5px solid black;    
     border-radius: 10px;
 }
 
@@ -32,8 +48,6 @@ font-weight:bold;
     transform: translate(-50%, -50%);
     height: 240px;
     width: 1200px;    
-    border: 5px solid rgb(31, 82, 82);    
-    border-radius: 10px;
 }
 
 .icons{
@@ -42,7 +56,7 @@ font-weight:bold;
     height: 200px;
     width: 190px;
     margin: 20px;
-    border: 5px solid rgb(48, 47, 47);
+    border: 5px solid black;
     border-radius: 10px;
 }
 
@@ -58,7 +72,6 @@ font-weight:bold;
 
 .weather{
     margin: 5px;
-   /*  background-color: rgb(106, 215, 255); */
     border-radius: 5px;
     text-align: center;
     font-weight: bold;

@@ -1,3 +1,4 @@
+
 function GetInfo() {
 
     var newName = document.getElementById("cityInput");
@@ -39,7 +40,7 @@ function DefaultScreen(){
 var d = new Date();
 var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",];
 
-function CheckDay(day){
+function CheckDay(day) {
     if(day + d.getDay() > 6){
         return day + d.getDay() - 7;
     }

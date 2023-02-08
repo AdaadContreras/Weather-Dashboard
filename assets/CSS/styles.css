@@ -11,12 +11,25 @@ header {
     margin-left: -8px;
 }
 
+.search {
+    width: 50%;
+}
+
 .title {
     width: 100%;
     text-align:left ;
     margin-left: 15px;
     font-size: 50px;
     background-color: #1C9CF6;
+}
+
+.history {
+    display: flex;
+    justify-content: right;
+}
+
+.recent {
+    list-style: none;
 }
 
 #cityInput, #cityName, #inputContainer, button{

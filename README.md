@@ -6,4 +6,6 @@ Using HTML, CSS, and JS a weather dashboard was created to be able to look up th
 
 ![img](./assets/img/Screenshot%20(25).png)
 
-Deployed Link: 
+Deployed Link: https://adaadcontreras.github.io/Weather-Dashboard/
+
+GitHub Repo: https://github.com/AdaadContreras/Weather-Dashboard
